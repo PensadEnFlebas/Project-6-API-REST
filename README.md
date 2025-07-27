@@ -6,6 +6,7 @@ Una RESTful API desarrollada con Node.js, Express y MongoDB que gestiona informa
 
 ## 📁 Estructura del proyecto
 
+```text
 discworld/
 ├── assets/ → Imágenes de portadas y personajes
 ├── src/
@@ -21,6 +22,7 @@ discworld/
 ├── index.js → Punto de entrada del servidor
 ├── package.json → Scripts y dependencias
 └── README.md → Documentación del proyecto
+```
 
 ---
 
