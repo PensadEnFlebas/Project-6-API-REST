@@ -53,14 +53,14 @@ Recomendado: tener instalado **Insomnia** o **Postman** para testear las rutas
 1. **Clona el repositorio**:
 
 ```bash
-git clone https://github.com/tuusuario/discworld.git
-cd discworld
+git clone https://github.com/PensadEnFlebas/Project-6-API-REST.git
+cd Project-6-API-REST
 
 Instala las dependencias:
 npm install
 
 Crea un archivo .env en la raíz del proyecto:
-PORT=3000 *opcional*
+PORT=3000   # opcional
 DB_URL=mongodb+srv://<usuario>:<contraseña>@<cluster>.mongodb.net/discworld
 
 Ejecuta el servidor en modo desarrollo:
@@ -97,7 +97,7 @@ PUT /api/characters/:id — Actualiza un personaje existente.
 DELETE /api/characters/:id — Elimina un personaje.
 
 🖼️ Gestión de imágenes
-Las portadas y fotos de personajes se almacenan en la carpeta /assets. Al crear o actualizar un recurso, la propiedad cover o picture debe tener un valor como:
+Las portadas y fotos de personajes se almacenan en la carpeta /assets. Al crear o actualizar un recurso, la propiedad "cover" o "picture" debe tener un valor como:
 
 "cover": "/assets/mort.jpg"
 
