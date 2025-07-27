@@ -50,9 +50,8 @@ Recomendado: tener instalado **Insomnia** o **Postman** para testear las rutas
 
 ## 🔧 Instalación y uso
 
-1. **Clona el repositorio**:
-
 ```bash
+Primero **Clona el repositorio**:
 git clone https://github.com/PensadEnFlebas/Project-6-API-REST.git
 cd Project-6-API-REST
 
