@@ -15,5 +15,3 @@ const bookSchema = new mongoose.Schema(
 )
 
 module.exports = mongoose.model('Book', bookSchema)
-// const Book = mongoose.model('books', characterSchema, 'books')
-// module.exports = Book

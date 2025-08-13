@@ -14,5 +14,3 @@ const characterSchema = new mongoose.Schema(
 )
 
 module.exports = mongoose.model('Character', characterSchema)
-// const Character = mongoose.model('characters', characterSchema, 'characters')
-// module.exports = Character
